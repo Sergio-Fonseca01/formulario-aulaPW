@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width>, initial-scale=1.0">
+    <title>formulario</title>
+    <link rel="stylesheet" href="../formulario.css">
+    
+</head>
+<body >
+    
+<div class="container">
+
+<form  method="post" action="formulario.php" enctype="multipart/form-data" target="_blank">
+    <div class="row-input-container">
+        <div class="col-xs-12">
+<label for="nome"> Nome:</label>
+<input type="text" id="nome" name="nome" required><br><br>
+</div>
+</div>
+<div class="col-md-6 col-sm-12">
+    <div class="syled-input">
+<label for="sobrenome">Sobrenome:</label>
+<input type="text" id="sobrenome" name="sobrenome" required><br><br>
+</div>
+</div>
+<div class="col-md-6 col-sm-12">
+    <div class="syled-input phone-input">
+<label for="email">Email:</label>
+<input type="email" id="email" name="email" required><br><br>
+</div>
+</div>
+<div class="col-xs-12">
+    <div class="syled-input wide">
+<label for="telefone">Telefone:</label>
+<input type="tel" id="telefone" name="telefone" required><br><br>
+</div>
+</div>
+<div class="col-xs-12">
+    <div class="syled-input wide">
+<label for="cidade">Cidade:</label>
+<input type="text" id="cidade" name="cidade" required><br><br>
+</div>
+</div>
+<input type="file" id="arquivo" name="arquivo" > <br><br>
+<div class="col-xs-12">
+<button type="submit" class="btn-lrg submit-btn">Enviar</button>
+</div>
+</div>
+</form>
+</div>
+</body>
+</html>
